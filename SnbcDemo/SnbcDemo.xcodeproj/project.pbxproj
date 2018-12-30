@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EDB50521D8AB5E003C1623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB50421D8AB5E003C1623 /* AppDelegate.m */; };
+		A6EDB50821D8AB5E003C1623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB50721D8AB5E003C1623 /* ViewController.m */; };
+		A6EDB50B21D8AB5E003C1623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EDB50921D8AB5E003C1623 /* Main.storyboard */; };
+		A6EDB50D21D8AB62003C1623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EDB50C21D8AB62003C1623 /* Assets.xcassets */; };
+		A6EDB51021D8AB62003C1623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EDB50E21D8AB62003C1623 /* LaunchScreen.storyboard */; };
+		A6EDB51321D8AB62003C1623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB51221D8AB62003C1623 /* main.m */; };
+		A6EDB51D21D8AB62003C1623 /* SnbcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB51C21D8AB62003C1623 /* SnbcDemoTests.m */; };
+		A6EDB52821D8AB62003C1623 /* SnbcDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB52721D8AB62003C1623 /* SnbcDemoUITests.m */; };
+		A6EDB59621D8B7C1003C1623 /* SnbcTableLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EDB59521D8B7C1003C1623 /* SnbcTableLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EDB51921D8AB62003C1623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EDB4F821D8AB5E003C1623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EDB4FF21D8AB5E003C1623;
+			remoteInfo = SnbcDemo;
+		};
+		A6EDB52421D8AB62003C1623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EDB4F821D8AB5E003C1623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EDB4FF21D8AB5E003C1623;
+			remoteInfo = SnbcDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6EDB50021D8AB5E003C1623 /* SnbcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnbcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EDB50321D8AB5E003C1623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6EDB50421D8AB5E003C1623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6EDB50621D8AB5E003C1623 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6EDB50721D8AB5E003C1623 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6EDB50A21D8AB5E003C1623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6EDB50C21D8AB62003C1623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6EDB50F21D8AB62003C1623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6EDB51121D8AB62003C1623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EDB51221D8AB62003C1623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EDB51821D8AB62003C1623 /* SnbcDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnbcDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EDB51C21D8AB62003C1623 /* SnbcDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnbcDemoTests.m; sourceTree = "<group>"; };
+		A6EDB51E21D8AB62003C1623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EDB52321D8AB62003C1623 /* SnbcDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnbcDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EDB52721D8AB62003C1623 /* SnbcDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnbcDemoUITests.m; sourceTree = "<group>"; };
+		A6EDB52921D8AB62003C1623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EDB59521D8B7C1003C1623 /* SnbcTableLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnbcTableLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EDB4FD21D8AB5E003C1623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDB59621D8B7C1003C1623 /* SnbcTableLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB51521D8AB62003C1623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB52021D8AB62003C1623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EDB4F721D8AB5E003C1623 = {
+			isa = PBXGroup;
+			children = (
+				A6EDB50221D8AB5E003C1623 /* SnbcDemo */,
+				A6EDB51B21D8AB62003C1623 /* SnbcDemoTests */,
+				A6EDB52621D8AB62003C1623 /* SnbcDemoUITests */,
+				A6EDB50121D8AB5E003C1623 /* Products */,
+				A6EDB59421D8B7C1003C1623 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EDB50121D8AB5E003C1623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDB50021D8AB5E003C1623 /* SnbcDemo.app */,
+				A6EDB51821D8AB62003C1623 /* SnbcDemoTests.xctest */,
+				A6EDB52321D8AB62003C1623 /* SnbcDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EDB50221D8AB5E003C1623 /* SnbcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDB50321D8AB5E003C1623 /* AppDelegate.h */,
+				A6EDB50421D8AB5E003C1623 /* AppDelegate.m */,
+				A6EDB50621D8AB5E003C1623 /* ViewController.h */,
+				A6EDB50721D8AB5E003C1623 /* ViewController.m */,
+				A6EDB50921D8AB5E003C1623 /* Main.storyboard */,
+				A6EDB50C21D8AB62003C1623 /* Assets.xcassets */,
+				A6EDB50E21D8AB62003C1623 /* LaunchScreen.storyboard */,
+				A6EDB51121D8AB62003C1623 /* Info.plist */,
+				A6EDB51221D8AB62003C1623 /* main.m */,
+			);
+			path = SnbcDemo;
+			sourceTree = "<group>";
+		};
+		A6EDB51B21D8AB62003C1623 /* SnbcDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDB51C21D8AB62003C1623 /* SnbcDemoTests.m */,
+				A6EDB51E21D8AB62003C1623 /* Info.plist */,
+			);
+			path = SnbcDemoTests;
+			sourceTree = "<group>";
+		};
+		A6EDB52621D8AB62003C1623 /* SnbcDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDB52721D8AB62003C1623 /* SnbcDemoUITests.m */,
+				A6EDB52921D8AB62003C1623 /* Info.plist */,
+			);
+			path = SnbcDemoUITests;
+			sourceTree = "<group>";
+		};
+		A6EDB59421D8B7C1003C1623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDB59521D8B7C1003C1623 /* SnbcTableLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EDB4FF21D8AB5E003C1623 /* SnbcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EDB52C21D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemo" */;
+			buildPhases = (
+				A6EDB4FC21D8AB5E003C1623 /* Sources */,
+				A6EDB4FD21D8AB5E003C1623 /* Frameworks */,
+				A6EDB4FE21D8AB5E003C1623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnbcDemo;
+			productName = SnbcDemo;
+			productReference = A6EDB50021D8AB5E003C1623 /* SnbcDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6EDB51721D8AB62003C1623 /* SnbcDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EDB52F21D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemoTests" */;
+			buildPhases = (
+				A6EDB51421D8AB62003C1623 /* Sources */,
+				A6EDB51521D8AB62003C1623 /* Frameworks */,
+				A6EDB51621D8AB62003C1623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EDB51A21D8AB62003C1623 /* PBXTargetDependency */,
+			);
+			name = SnbcDemoTests;
+			productName = SnbcDemoTests;
+			productReference = A6EDB51821D8AB62003C1623 /* SnbcDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6EDB52221D8AB62003C1623 /* SnbcDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EDB53221D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemoUITests" */;
+			buildPhases = (
+				A6EDB51F21D8AB62003C1623 /* Sources */,
+				A6EDB52021D8AB62003C1623 /* Frameworks */,
+				A6EDB52121D8AB62003C1623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EDB52521D8AB62003C1623 /* PBXTargetDependency */,
+			);
+			name = SnbcDemoUITests;
+			productName = SnbcDemoUITests;
+			productReference = A6EDB52321D8AB62003C1623 /* SnbcDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EDB4F821D8AB5E003C1623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SNBC;
+				TargetAttributes = {
+					A6EDB4FF21D8AB5E003C1623 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A6EDB51721D8AB62003C1623 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A6EDB4FF21D8AB5E003C1623;
+					};
+					A6EDB52221D8AB62003C1623 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A6EDB4FF21D8AB5E003C1623;
+					};
+				};
+			};
+			buildConfigurationList = A6EDB4FB21D8AB5E003C1623 /* Build configuration list for PBXProject "SnbcDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6EDB4F721D8AB5E003C1623;
+			productRefGroup = A6EDB50121D8AB5E003C1623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EDB4FF21D8AB5E003C1623 /* SnbcDemo */,
+				A6EDB51721D8AB62003C1623 /* SnbcDemoTests */,
+				A6EDB52221D8AB62003C1623 /* SnbcDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EDB4FE21D8AB5E003C1623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDB51021D8AB62003C1623 /* LaunchScreen.storyboard in Resources */,
+				A6EDB50D21D8AB62003C1623 /* Assets.xcassets in Resources */,
+				A6EDB50B21D8AB5E003C1623 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB51621D8AB62003C1623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB52121D8AB62003C1623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EDB4FC21D8AB5E003C1623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDB50821D8AB5E003C1623 /* ViewController.m in Sources */,
+				A6EDB51321D8AB62003C1623 /* main.m in Sources */,
+				A6EDB50521D8AB5E003C1623 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB51421D8AB62003C1623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDB51D21D8AB62003C1623 /* SnbcDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDB51F21D8AB62003C1623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDB52821D8AB62003C1623 /* SnbcDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6EDB51A21D8AB62003C1623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EDB4FF21D8AB5E003C1623 /* SnbcDemo */;
+			targetProxy = A6EDB51921D8AB62003C1623 /* PBXContainerItemProxy */;
+		};
+		A6EDB52521D8AB62003C1623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EDB4FF21D8AB5E003C1623 /* SnbcDemo */;
+			targetProxy = A6EDB52421D8AB62003C1623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6EDB50921D8AB5E003C1623 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EDB50A21D8AB5E003C1623 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6EDB50E21D8AB62003C1623 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EDB50F21D8AB62003C1623 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EDB52A21D8AB62003C1623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6EDB52B21D8AB62003C1623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EDB52D21D8AB62003C1623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EDB52E21D8AB62003C1623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6EDB53021D8AB62003C1623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnbcDemo.app/SnbcDemo";
+			};
+			name = Debug;
+		};
+		A6EDB53121D8AB62003C1623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnbcDemo.app/SnbcDemo";
+			};
+			name = Release;
+		};
+		A6EDB53321D8AB62003C1623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnbcDemo;
+			};
+			name = Debug;
+		};
+		A6EDB53421D8AB62003C1623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DBJATEL4Y;
+				INFOPLIST_FILE = SnbcDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbeiyang.www.SnbcDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnbcDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EDB4FB21D8AB5E003C1623 /* Build configuration list for PBXProject "SnbcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDB52A21D8AB62003C1623 /* Debug */,
+				A6EDB52B21D8AB62003C1623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EDB52C21D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDB52D21D8AB62003C1623 /* Debug */,
+				A6EDB52E21D8AB62003C1623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EDB52F21D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDB53021D8AB62003C1623 /* Debug */,
+				A6EDB53121D8AB62003C1623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EDB53221D8AB62003C1623 /* Build configuration list for PBXNativeTarget "SnbcDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDB53321D8AB62003C1623 /* Debug */,
+				A6EDB53421D8AB62003C1623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EDB4F821D8AB5E003C1623 /* Project object */;
+}
